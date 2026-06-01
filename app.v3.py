@@ -1004,7 +1004,7 @@ elif mode == "중장기(순환) 모드":
 else:  # 피로도 분석 (최근 스케줄 분석)":
     st.title("🥐 성심당 외식사업부 인력 운영 최적화 시스템")
     st.header("😴 직원 피로도 분석")
-    st.info("최근 3~4개월 스케줄을 분석하여 직원별 피로도를 계산합니다.")
+    st.info("최근 3개월 스케줄을 분석하여 직원별 피로도를 계산합니다.")
     
     import numpy as np
     from collections import defaultdict
