@@ -1550,9 +1550,9 @@ else:  # 피로도 분석 (최근 스케줄 분석)":
                     "이름": name,
                     "총 근무일": data['total_days'],
                     "【항목1】 타임 다양성": diversity,
-                    "【항목2】 오픈근무 피로": openshift,
+                    "【항목2】 오픈 및 퇴근 근무 피로": openshift,
                     "【항목3】 주말 출근": weekend,
-                    "【항목4】 평균 연속근무": avg_consecutive,
+                    "【항목4】 월평균 연속근무": avg_consecutive,
                     "피로도 점수": f"{fatigue_score:.1f}",
                     "등급": level,
                 })
